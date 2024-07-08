@@ -1,0 +1,77 @@
+Mongodb is an open-source,document-oriented NoSQL Database management system
+1)Mongodb ko kis na banaya 
+2) Previous company 10gen and current company name Mongodb
+3) Sql VS Mongodb
+
+
+                              "Sql" 
+4) Sql database are relational database
+5) They use structured tables to store data in rows and columns
+6) Sql databases are primarily called as relational database (RDBMS)
+7) Sql datbases are table-based database
+8) Sql databases are veretically scalable.
+
+                        "Mongodb" Nosql
+9) Mongodb non-relational database hain.
+10)NoSql database are document based, Key value pairs..
+11) NoSql database are horizontally scalable.....
+ 
+                                                           CRUD OPERATIONS IN MONGODB
+
+1) Single data insert karna ki query : insertOne
+example:{
+'name': 'Hassan', 
+'fatherName': 'Nadeem',
+'age': '20',
+                 } 
+2) Multipal data insert karna ki query : insertMany
+example:
+   [
+{
+'name': 'Hassan', 
+'fatherName': 'Nadeem',
+'age': '20',
+},
+{
+'name': 'Hassan', 
+'fatherName': 'Nadeem',
+'age': '20',
+},
+{
+'name': 'Hassan', 
+'fatherName': 'Nadeem',
+'age': '20',
+}   
+   ]
+
+3) Mongodb mai multipal data ko read karna ki query [find()] database mai jitna data hoga sub read ho gy ga
+Mongodb mai ak data ko read karna ki query [findOne] database mai jitna data hoga sub read ho gy ga
+                                                                    IMPORTANT POINT
+                                                                          
+ HEADING : ORDERD INSERT
+4)ya mongodb ka default behivour hain ka jab main data insert kar rha ho database main to error a rha hain par wo error ya hai ka 
+for examle main 3 data insert kar rha ho or second main kuch error hain to first data insert hoga par second or thired data insert nhi hoga ya default behivour hain  
+
+HEADING : UNORDERD INSERT
+5) Mongodb main 10 data insert kar rha ho main lakin 5 main error to is query sai {orderd: false} jis main error nhi hain wo sab data insert ho gy ga 
+
+                                                                   IMPORTANT POINT 
+
+HEADING : CURSOR METHODS
+1) Limit
+2) Count 
+3) Skip
+4) Sort
+
+HEADING : LOGICAL OPERATER
+1) $and
+2) $or
+3) $not
+4) $nor
+
+HEADING : PROJECTION
+
+
+                                                                
+
+
